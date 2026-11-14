@@ -1,0 +1,134 @@
+.spreadsheet-header-row,
+.spreadsheet-data-row {
+  font-family: "Arsenica GroupStudy", "DIN Next Arabic", "Noto Sans Arabic", "Geeza Pro", Tahoma, sans-serif;
+  color: #14223a;
+}
+
+.spreadsheet-header-row {
+  margin-bottom: 14px;
+  border: 1px solid #16315d;
+  border-radius: 14px;
+  overflow: hidden;
+  background:
+    linear-gradient(90deg, #246ee9 0%, #82b686 58%, #caff1a 100%) top / 100% 8px no-repeat,
+    linear-gradient(180deg, #0a1e3f 0%, #122b52 100%);
+  box-shadow: 0 20px 55px rgba(10, 30, 63, 0.18);
+}
+
+.spreadsheet-header-row .header-cell {
+  min-height: 64px;
+  padding: 16px 18px;
+  border-inline-start: 1px solid rgba(255, 255, 255, 0.08);
+  background: transparent;
+  color: #ffffff;
+  font-size: 0.94rem;
+  font-weight: 900;
+  letter-spacing: 0.03em;
+  text-align: right;
+}
+
+.spreadsheet-header-row .header-cell:first-child {
+  border-inline-start: 0;
+}
+
+.spreadsheet-data-row {
+  margin-bottom: 10px;
+  border: 1px solid #dbe4f0;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 12px 34px rgba(10, 30, 63, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.spreadsheet-data-row:nth-child(even) {
+  background: #f6f9fc;
+}
+
+.spreadsheet-data-row:hover {
+  transform: translateY(-2px);
+  border-color: #2b6fe8;
+  box-shadow: 0 18px 42px rgba(10, 30, 63, 0.14);
+}
+
+.spreadsheet-data-row .data-cell {
+  min-height: 72px;
+  padding: 16px 18px;
+  border-inline-start: 1px solid #dbe4f0;
+  color: #14223a;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: right;
+}
+
+.spreadsheet-data-row .data-cell:first-child {
+  border-inline-start: 0;
+  background: linear-gradient(180deg, #0a1e3f 0%, #122b52 100%);
+  color: #caff1a;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.spreadsheet-data-row .data-cell:nth-child(2) {
+  color: #0a1e3f;
+  font-size: 1.04rem;
+  font-weight: 900;
+}
+
+.spreadsheet-data-row .data-cell:nth-child(3),
+.spreadsheet-data-row .data-cell:last-child,
+.score-cell,
+.rank-cell {
+  font-family: "DIN Next Arabic", "Noto Sans Arabic", "Geeza Pro", Tahoma, sans-serif;
+}
+
+.score-cell {
+  color: #0756d8;
+  font-weight: 900;
+}
+
+.rank-cell {
+  color: #caff1a;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.player-name {
+  color: #0a1e3f;
+  font-weight: 900;
+}
+
+.spreadsheet-header-row .header-cell:nth-child(1),
+.spreadsheet-data-row .data-cell:nth-child(1) {
+  width: 88px;
+  min-width: 88px;
+  flex: 0 0 88px;
+  text-align: center;
+}
+
+.spreadsheet-header-row .header-cell:nth-child(2),
+.spreadsheet-data-row .data-cell:nth-child(2) {
+  width: 280px;
+  min-width: 220px;
+  flex: 1 1 280px;
+}
+
+.spreadsheet-header-row .header-cell:nth-child(3),
+.spreadsheet-data-row .data-cell:nth-child(3) {
+  width: 140px;
+  min-width: 120px;
+  flex: 0 0 140px;
+}
+
+.spreadsheet-header-row .header-cell:nth-child(4),
+.spreadsheet-data-row .data-cell:nth-child(4) {
+  width: 180px;
+  min-width: 150px;
+  flex: 0 0 180px;
+}
+
+.spreadsheet-header-row .header-cell:nth-child(n + 5),
+.spreadsheet-data-row .data-cell:nth-child(n + 5) {
+  min-width: 140px;
+  flex: 1 1 140px;
+}

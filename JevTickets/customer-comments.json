@@ -1,0 +1,10 @@
+{
+  "instruction": "What is the main purpose of this customer comment?",
+  "routes": {
+    "Praise": "Positive feedback or appreciation for the product or service.",
+    "Complaint": "Dissatisfaction with an existing product, service, or experience.",
+    "Feature request": "Requests a new capability or an improvement to the product.",
+    "Question": "Asks for information or help using the product.",
+    "Other": "Unrelated, unclear, or other comments."
+  }
+}

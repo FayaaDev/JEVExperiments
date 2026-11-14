@@ -1,0 +1,10 @@
+{
+  "instruction": "Which support team should handle this customer ticket?",
+  "routes": {
+    "الفوترة": "Invoices, charges, payments, refunds, and subscription billing.",
+    "الدعم الفني": "Errors, broken features, installation, and integration problems.",
+    "الوصول إلى الحساب": "Login, passwords, two-factor authentication, and locked accounts.",
+    "المبيعات": "Product questions, pricing quotes, and purchasing inquiries.",
+    "الخدمات اللوجستية": "Requests Related to delivery, package delays, Shipping time estimate.  "
+  }
+}

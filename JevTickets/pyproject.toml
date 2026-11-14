@@ -1,0 +1,15 @@
+[project]
+name = "jevar-tickets"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["torch", "transformers>=5.17,<6", "huggingface-hub", "openpyxl"]
+
+[project.scripts]
+tickets = "classify_with_jevar:tickets_main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["classify_with_jevar"]

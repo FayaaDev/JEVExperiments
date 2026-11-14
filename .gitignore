@@ -1,0 +1,29 @@
+# Excel workbooks, including macro-enabled and binary formats.
+*.[xX][lL][sS]
+*.[xX][lL][sS][xX]
+*.[xX][lL][sS][mM]
+*.[xX][lL][sS][bB]
+*.[xX][lL][tT]
+*.[xX][lL][tT][xX]
+*.[xX][lL][tT][mM]
+*.[xX][lL][aA]
+*.[xX][lL][aA][mM]
+
+# Private conversations, reviews, identifying reports, and generated results.
+*.[cC][sS][vV]
+usefulness-review-*.json
+whatsapp_interaction_cache.json
+*.log
+GroupStudy/groupstudytheme.html
+GroupStudy/classification-workflow.html
+
+# Credentials and local runtime files.
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+*.egg-info/
+*.py[cod]
+.venv/
+.DS_Store
